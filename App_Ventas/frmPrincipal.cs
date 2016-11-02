@@ -92,6 +92,7 @@ namespace App_Ventas
         private void MiFormStock_FormClosed(object sender, FormClosedEventArgs e)
         {
             //throw new NotImplementedException();
+
             miformstock = null;
         }
         private void ventaToolStripMenuItem_Click(object sender, EventArgs e)
