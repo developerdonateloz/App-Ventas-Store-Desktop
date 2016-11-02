@@ -15,8 +15,8 @@ namespace App_Ventas
         {
             InitializeComponent();
             
-            //this.FormBorderStyle = FormBorderStyle.None;
-            //this.WindowState = FormWindowState.Maximized;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -137,7 +137,7 @@ namespace App_Ventas
         private void frmPrincipal_FormClosed(object sender, FormClosedEventArgs e)
         {
             this.Close();
-            //Application.Exit();
+            Application.Exit();
         }
     }
 }
